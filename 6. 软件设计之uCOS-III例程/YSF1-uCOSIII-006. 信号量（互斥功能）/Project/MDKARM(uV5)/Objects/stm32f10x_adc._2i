@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\CM3\CoreSupport -I..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\..\User -I..\..\UCOSIII\uC-CPU -I..\..\UCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I..\..\UCOSIII\uC-LIB -I..\..\UCOSIII\uC-LIB\Ports -I..\..\UCOSIII\uCOS-III\Source -I..\..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I..\..\User\OS
+-I "E:\硬石电子\2. 软件设计\4. 软件设计之uCOS-III例程\YSF1-uCOSIII-003. 任务的挂机，恢复，删除，以及重建\Project\MDKARM(uV5)\RTE"
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+-I C:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="517" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
+-o .\objects\stm32f10x_adc.o --omf_browse .\objects\stm32f10x_adc.crf --depend .\objects\stm32f10x_adc.d --feedback ".\Objects\YS-F1PRO.fed" "..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c"
